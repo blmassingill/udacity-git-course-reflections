@@ -29,6 +29,13 @@ You can compare the staging area to the most recent commit with
 "What are some situations when branches would be helpful in keeping
 your history organized? How would branches help?"
 
+A branch would be helpful if you want to maintain different versions,
+such as one that supposedly works and one with a new feature that might
+not (okay, this is an example from the video).  One of the interviews
+with an experienced user raved about this use case, so it must be
+useful for at least some users!
+
+
 "How do the diagrams help you visualize the branch structure?"
 
 "What is the result of merging two branches together? Why do we
