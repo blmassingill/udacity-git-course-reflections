@@ -1,12 +1,12 @@
-"What happens when you initialize a repository? Why do you need to do it?"
+** What happens when you initialize a repository? Why do you need to do it?
 
 For one thing, the .git directory gets created.  It's said to contain some
 sort of metadata, and perhaps that requires some sort of initialization
 (that's what a quick look at .git suggests).  
 
 
-"How is the staging area different from the working directory and
-the repository?  What value do you think it offers?"
+** How is the staging area different from the working directory and
+the repository?  What value do you think it offers?
 
 It's not clear yet *how* it's different, only that it's a distinct 
 thing logically between the working directory and the repository.
@@ -19,15 +19,15 @@ files in the working directory that aren't in the repository at all?
 which does seem potentially useful.
 
 
-"How can you use the staging area to make sure you have one commit
-per logical change?"
+** How can you use the staging area to make sure you have one commit
+per logical change?
 
 You can compare the staging area to the most recent commit with
-'git diff --staged'?
+"git diff --staged"?
 
 
-"What are some situations when branches would be helpful in keeping
-your history organized? How would branches help?"
+** What are some situations when branches would be helpful in keeping
+your history organized? How would branches help?
 
 A branch would be helpful if you want to maintain different versions,
 such as one that supposedly works and one with a new feature that might
@@ -36,11 +36,11 @@ with an experienced user raved about this use case, so it must be
 useful for at least some users!
 
 
-"How do the diagrams help you visualize the branch structure?"
+** How do the diagrams help you visualize the branch structure?
 
-"What is the result of merging two branches together? Why do we
-represent it in the diagram the way we do?"
+** What is the result of merging two branches together? Why do we
+represent it in the diagram the way we do?
 
-"What are the pros and cons of Git's automatic merging vs. always
-doing merges manually?"
+** What are the pros and cons of Git's automatic merging vs. always
+doing merges manually?
 
