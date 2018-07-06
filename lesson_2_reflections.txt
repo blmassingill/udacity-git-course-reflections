@@ -38,6 +38,10 @@ useful for at least some users!
 
 ** How do the diagrams help you visualize the branch structure?
 
+Um, "duh"?  I may be a plain-text fanatic but even I recognize that
+for most humans pictures work well.
+
+
 ** What is the result of merging two branches together? Why do we
 represent it in the diagram the way we do?
 
