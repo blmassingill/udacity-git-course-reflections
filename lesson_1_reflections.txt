@@ -1,0 +1,73 @@
+"How did viewing a diff between two versions of a file help you see
+the bug that was introduced?"
+
+You don't need to sell me on the benefits of using a tool to compare
+two files!  I have been using "diff" on UNIX-like systems for a long
+time, and one reason I find it useful is in situations such as the one
+described in the videos here.  The benefits are so obvious that I hardly
+know how to respond to this question!
+
+
+"How could having easy access to the entire history of a file make
+you a more efficient programmer in the long term?"
+
+Good question.  I'm sure there are possibilities I'm not thinking 
+of, but based on my experience with DIY semi-version-control:
+
+Sometimes I try one approach, abandon it in favor of something else,
+and then realize that there was something about the earlier approach
+that would be good to have.  If I saved the old approach (and often
+I do), I don't have to reinvent it.
+
+
+"What do you think are the pros and cons of manually choosing when to
+create a commit, like you do in Git, vs having versions automatically
+saved, like Google docs does?"
+
+Pro:  *You* decide when it makes sense to take a checkpoint, so it
+happens when there's a logical reason for it.
+
+Con:  You might forget.  
+
+
+"Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat
+each file separately?"
+
+Allowing multiple-file commits seems important and useful when there's
+a notion that the thing being tracked consists of multiple files.
+That's the case for many (most?) coding projects, which is what I
+think Git was designed for, but not for a single Google Doc, and
+apparently the people who designed Google Docs didn't do so with a
+notion of multiple-document "projects".
+
+
+"How can you use the commands git log and git diff to view the history
+of files?"
+
+'git log' can be used to list commits -- places where you took a snapshot 
+of the files.
+
+'git diff' can be used to show differences between two snapshots.
+
+
+"How might using version control make you more confident to make
+changes that could break something?"
+
+Isn't this kind of obvious?  if you know it will be easy to back out
+changes, you can make changes without worrying much or at all about
+breaking things.  (Maybe this does assume that you can detect breakage?
+though I suppose with version control even if you don't notice until
+several changes later you at least have some hope of isolating how
+the bug was introduced.)
+
+
+"Now that you have your workspace set up, what do you want to try
+using Git for?"
+
+Good question.  Right now I don't really have a motivating example, 
+though I suppose for practice I could try converting a project using
+my DIY semi-version-control to use a Git repository.  
+
+
+
