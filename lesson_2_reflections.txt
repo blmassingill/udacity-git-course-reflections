@@ -53,3 +53,10 @@ represented in the diagram is the only obvious way to do so!
 ** What are the pros and cons of Git's automatic merging vs. always
 doing merges manually?
 
+Automatic merging sounds nice, but if conflicts (as described in the
+video) arise, something has to resolve them.  To me it seems obvious
+that it's better to have this done by humans -- if AI ever gets smart
+enough to resolve conflicts in code, hm, might it be smart enough to
+write code?  whether this is possible might be an interesting and
+possibly deep question!
+
