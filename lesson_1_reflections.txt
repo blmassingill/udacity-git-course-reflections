@@ -45,10 +45,10 @@ notion of multiple-document "projects".
 ** How can you use the commands git log and git diff to view the history
 of files?
 
-'git log' can be used to list commits -- places where you took a snapshot 
+"git log" can be used to list commits -- places where you took a snapshot 
 of the files.
 
-'git diff' can be used to show differences between two snapshots.
+"git diff" can be used to show differences between two snapshots.
 
 
 ** How might using version control make you more confident to make

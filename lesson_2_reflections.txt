@@ -58,5 +58,5 @@ video) arise, something has to resolve them.  To me it seems obvious
 that it's better to have this done by humans -- if AI ever gets smart
 enough to resolve conflicts in code, hm, might it be smart enough to
 write code?  whether this is possible might be an interesting and
-possibly deep question!
+possibly deep question?
 
