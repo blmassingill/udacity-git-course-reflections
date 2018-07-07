@@ -45,6 +45,11 @@ for most humans pictures work well.
 ** What is the result of merging two branches together? Why do we
 represent it in the diagram the way we do?
 
+The result merges changes made on the two branches, comparing them
+to their common ancestor (as best I can tell).  To me the way it's
+represented in the diagram is the only obvious way to do so!
+
+
 ** What are the pros and cons of Git's automatic merging vs. always
 doing merges manually?
 
