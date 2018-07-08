@@ -25,6 +25,11 @@ per logical change?
 You can compare the staging area to the most recent commit with
 "git diff --staged"?
 
+Better answer after viewing others' reflections:  This allows you to
+control what changes are included in the "snapshot" -- for example,
+if you're working on different sets of changes, this would allow you
+to include only some of them in a commit.
+
 
 ** What are some situations when branches would be helpful in keeping
 your history organized? How would branches help?
@@ -39,7 +44,10 @@ useful for at least some users!
 ** How do the diagrams help you visualize the branch structure?
 
 Um, "duh"?  I may be a plain-text fanatic but even I recognize that
-for most humans pictures work well.
+for most humans pictures work well.  Here, the picture makes the
+logical structure clearer -- each commit has a parent or parents,
+so they form a directed graph, and a diagram is a good way to show
+that.
 
 
 ** What is the result of merging two branches together? Why do we
@@ -49,14 +57,24 @@ The result merges changes made on the two branches, comparing them
 to their common ancestor (as best I can tell).  To me the way it's
 represented in the diagram is the only obvious way to do so!
 
+Better answer:  The result of merging two branches is a commit with
+two (or more??) parents, which is consistent with the diagram.
+
 
 ** What are the pros and cons of Git's automatic merging vs. always
 doing merges manually?
 
-Automatic merging sounds nice, but if conflicts (as described in the
-video) arise, something has to resolve them.  To me it seems obvious
-that it's better to have this done by humans -- if AI ever gets smart
-enough to resolve conflicts in code, hm, might it be smart enough to
-write code?  whether this is possible might be an interesting and
-possibly deep question?
+Pros of automatic merging:  It's easier, and when it works it should
+be less error-prone that doing manual merges.
+
+Cons of automatic merging:  If conflicts (as described in the video)
+arise, something has to resolve them.  To me it seems obvious that
+it's better to have this done by humans -- if AI ever gets smart
+enough to resolve conflicts in code, hm, might it be smart enough
+to write code?  whether this is possible might be an interesting and
+possibly deep question?  Also I'm not convinced that automatic merging
+will always work well even when it appears to -- if the code is nice
+and modular, maybe so, but to me it seems like there could be cases
+where two changes don't trigger Git's conflict detection but actually
+do interact.
 

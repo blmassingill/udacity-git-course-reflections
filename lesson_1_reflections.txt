@@ -5,26 +5,33 @@ You don't need to sell me on the benefits of using a tool to compare
 two files!  I have been using "diff" on UNIX-like systems for a long
 time, and one reason I find it useful is in situations such as the one
 described in the videos here.  The benefits are so obvious that I hardly
-know how to respond to this question!
-
+know how to respond to this question!  (I mean, when something breaks,
+isn't the first question "what did you change?"  which is what "diff"
+shows you, if you have old and new versions.)
 
 ** How could having easy access to the entire history of a file make
 you a more efficient programmer in the long term?
 
 Good question.  I'm sure there are possibilities I'm not thinking 
-of, but based on my experience with DIY semi-version-control:
+of, but based on my experience with DIY [do-it-yourself] sort-of version
+control:
 
 Sometimes I try one approach, abandon it in favor of something else,
 and then realize that there was something about the earlier approach
 that would be good to have.  If I saved the old approach (and often
 I do), I don't have to reinvent it.
 
+(After having worked through more of the lessons, I wonder how feasible
+this kind of thing will be with Git.  With DIY version control it's
+fairly easy to find old versions of code and look at them side-by-side
+with current code.)
+
 
 ** What do you think are the pros and cons of manually choosing when to
 create a commit, like you do in Git, vs having versions automatically
 saved, like Google docs does?
 
-Pro:  *You* decide when it makes sense to take a checkpoint, so it
+Pro:  *You* decide when it makes sense to take a "snapshot", so it
 happens when there's a logical reason for it.
 
 Con:  You might forget.  
@@ -67,7 +74,6 @@ using Git for?
 
 Good question.  Right now I don't really have a motivating example, 
 though I suppose for practice I could try converting a project using
-my DIY semi-version-control to use a Git repository.  
-
+my DIY version control to use a Git repository.  
 
 
