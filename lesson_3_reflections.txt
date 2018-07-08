@@ -1,8 +1,12 @@
 ** When would you want to use a remote repository rather than keeping
 all your work local?
 
-I can think of several reasons, to be added soon.  (Editing directly on GitHub
-is annoying fo me.)
+It puts a copy of the repository "in the cloud", no?  which could be
+useful for several reasons -- as a way to share the work between
+different computers, as a way to share among different users, or as
+a backup.  Also it might be a good way to "publish" code, if the 
+remote repository is hosted in a place others can easily access.
+
 
 ** Why might you want to always pull changes manually rather than
 having Git automatically stay up-to-date with your remote repository?
