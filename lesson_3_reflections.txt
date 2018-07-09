@@ -30,12 +30,27 @@ commits within a single repository.
 ** What is the benefit of having a copy of the last known state of
 the remote stored locally?
 
-    Fill in your answer here
+Good question, since the last known state of the remote might not be
+its current state.  I guess maybe it's useful to at least know what's
+different between the local repository and the last known state of 
+the remote?  
+
 
 ** How would you collaborate without using Git or GitHub?  What would
 be easier, and what would be harder?
 
-    Fill in your answer here
+There are lots of ways, and I've tried more than one of them.  On one
+project, we used an SVN repository, which seems to be somewhat like
+using Git with GitHub; on another project, I acted as the keeper of
+the master copy of the project, and the others sent changed versions of
+files to me, and I reviewed them and merged them into the master copy.
+I suppose working on a shared Google Doc also counts as collaboration?
+
+Collaborating without any tools support (the second option above)
+is easier in that you don't have to learn the tool, but more trouble
+because you don't have the tool to keep versions organized and provide
+easy access to everyone to the current state of the project.
+
 
 ** When would you want to make changes in a separate branch rather
 than directly in master?  What benefits does each approach have?
