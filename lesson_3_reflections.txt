@@ -55,4 +55,12 @@ easy access to everyone to the current state of the project.
 ** When would you want to make changes in a separate branch rather
 than directly in master?  What benefits does each approach have?
 
-    Fill in your answer here
+Making changes in a separate branch:  This seems like a better idea
+if several people are working on the same group of files, especially
+if their changes might conflict.  Trying to have them all work on
+the same branch (master) -- it seems like they'd potentially be
+stepping on each other.
+
+Making changes directly in the master branch does seem simpler, though,
+if/when it works?
+
